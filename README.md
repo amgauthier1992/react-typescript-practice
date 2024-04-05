@@ -1,4 +1,4 @@
-# React + TypeScript + Vite (Lesson 12- Dave Gray TS Course)
+# React + TypeScript + Vite (Lessons 12 & 13- Dave Gray TS Course)
 
 ## 12
 
@@ -12,5 +12,9 @@
   <T extends {}> or <T,>
   ```
 
-## 13
+## 13 - Hooks
 
+- Event types in functions wrapped with useCallback/cb functions 
+  - MouseEvent, KeyboardEvent, React.ChangeEvent<HTMLInputElement>, 
+- refs (useRef<HTMLInputElement>(null))
+  - changing ref values won't re-render component

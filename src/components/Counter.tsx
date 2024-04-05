@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const Counter = () => {
-  const [count, setCount] = useState<number>(1); //can explicitly define type for state or let TS infer
+  const [count, setCount] = useState<number>(1); //can explicitly define type for state or let TS infer. Can also make it a union type if we're waiting on data (number | null)
 
   return (
     <>
